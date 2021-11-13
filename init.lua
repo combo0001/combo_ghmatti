@@ -83,7 +83,6 @@ local function on_query(name, params, mode)
     for k,v in next, splited do 
       local p = async()
       driver:execute(v, _params, function(rows)
-        if query:find(";.-SELECT.+LAST_INSERT_ID%(%)") then rows = rows[#rows] end
         local select = true
         for _,row in pairs(rows) do
           if type(row) == 'table' then
