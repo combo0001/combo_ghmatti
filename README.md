@@ -10,5 +10,13 @@ A middleware for FiveM servers with vRPEX framework, a trial version aimed at vR
 ### > Remembering that it will return multiple queries in separate variables, not an array.
 
 ## Scripts requireds
-### > ghmattimysql (database driver)
-### > vrp (framework)
+### > [ghmattimysql](https://cdn.discordapp.com/attachments/845530016199868436/909208842338979880/ghmattimysql.zip) - database driver
+### > vrpex - framework
+
+## Instalação
+
+Inicialmente seguir [passos de instalação](https://freesoft.dev/program/147247406) na documentação do database driver, posteriormente:
+
+### > Se sua base for vRPEX Creative, não é necessário fazer essa etapa:
+Abrir **vrp/cfg/base.lua**
+Alterar a key **driver** para **ghmattimysql**
