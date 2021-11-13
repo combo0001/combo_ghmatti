@@ -18,5 +18,5 @@ A middleware for FiveM servers with vRPEX framework, a trial version aimed at vR
 Inicialmente seguir [passos de instalação](https://freesoft.dev/program/147247406) na documentação do database driver, posteriormente:
 
 ### > Se sua base for vRPEX Creative, não é necessário fazer essa etapa:
-Abrir **vrp/cfg/base.lua**
-Alterar a key **driver** para **ghmattimysql**
+#### 1. Abrir **vrp/cfg/base.lua**
+#### 2. Alterar a key **driver** para **ghmattimysql**
