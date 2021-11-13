@@ -13,10 +13,10 @@ A middleware for FiveM servers with vRPEX framework, a trial version aimed at vR
 ### > [ghmattimysql](https://cdn.discordapp.com/attachments/845530016199868436/909208842338979880/ghmattimysql.zip) - database driver
 ### > vrpex - framework
 
-## Instalação
+## Installation
 
-Inicialmente seguir [passos de instalação](https://freesoft.dev/program/147247406) na documentação do database driver, posteriormente:
+Initially follow [installation steps](https://freesoft.dev/program/147247406) in the database driver documentation, later on:
 
-### > Se sua base for vRPEX Creative, não é necessário fazer essa etapa:
-#### 1. Abrir **vrp/cfg/base.lua**
-#### 2. Alterar a key **driver** para **ghmattimysql**
+### > If your base for vRPEX Creative, you don't need to do this step:
+#### 1. Open ** vrp / cfg / base.moon **
+#### 2. Change a **driver** key to **ghmattimysql**
