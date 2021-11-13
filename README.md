@@ -20,3 +20,13 @@ Initially follow [installation steps](https://freesoft.dev/program/147247406) in
 ### > If your base for vRPEX Creative, you don't need to do this step:
 #### 1. Open **vrp/cfg/base.lua**
 #### 2. Change a **driver** key of the object to **ghmattimysql**
+
+```lua
+{
+	driver = "ghmattimysql",
+	host = "localhost",
+	database = "database",
+	user = "root",
+	password = "password"
+}
+```
